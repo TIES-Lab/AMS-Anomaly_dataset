@@ -1,0 +1,9 @@
+This folder contains 3 scripts, DataLableTest.m, TransientDataMine.m, TransientACDataMine.m, and a supporting script sectioncsv.m.
+
+The first script was an attempt at feature extraction for the gain simulations. It was unused but remains valuable. Read the DataLabelInstructions txt file for more info.
+
+The other two scripts were used to complete transient feature extraction. Read below:
+
+The matlab code Transient Data Mine is designed to take as input a csv file containing parametric transient data from 1, 2 or 3 stage circuits. The output is a new csv file containing mean, variance and slope for each output stage at a specific input voltage for 3ms. Input csv files must have output1, output2, output3 format with rows containing instantaneous values of the output signal for 3ms, and collumns specifying the input voltage. The output file will contain a single set of colums for each mean, variance, and data. 150 input voltage values were chosen from 0 - VDD, thus the output yields 150 rows of mean, variance, and slope data, one for each output signal. Output files prepend Features to the file being operated on. For example: if the input file is ParamTransientDCNNN.csv output becomes FeaturesParamTransientDCNNN.csv.
+
+The same approach was used to extract features of the AC transient tests. Mean absolute error and mean square error were included as well for these tests. To facilitate this a mat file was created called TableNon_AnomalousReferences.mat. This table included N NN and NNN non anomalous values and was used to compare against the data from anomalous values in the script. As expected the aforementioned error values are zero in the N NN and NNN extracted features.

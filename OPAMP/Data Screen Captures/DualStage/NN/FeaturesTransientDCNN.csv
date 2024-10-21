@@ -1,0 +1,10 @@
+FeaturesTransientDCNN.csv
+Signal,1,net2 X,net2 Y
+Feature, Mean, Variance, Slope
+1,7.251090e-01,2.291759e-21,-1.511710e-10
+Signal,2,net04 X,net04 Y
+Feature, Mean, Variance, Slope
+1,1.428024e+00,1.070329e-17,-1.051857e-07
+Signal,3,Vin X,Vin Y
+Feature, Mean, Variance, Slope
+1,5.000000e-01,0,-3.592940e-15

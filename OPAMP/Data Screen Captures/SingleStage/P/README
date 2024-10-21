@@ -1,0 +1,14 @@
+This folder contains simulation data for the single stage anomalous pfet amplifier.
+The same tests will be run as on the non-anomalous amplifier. Operating point data
+is gathered through the ade assembler which is labeled as Maestro in the library
+manager. Differences include sub unity amplification and lower offset voltage compared
+to the non-anomalous amplifier. The amplifier has also been assigned a label to dis-
+-tinquish it in a multi stage configuration.
+
+1-4 Notes:
+
+It may be possible to automate testing through the use of a SKILL script. OCEAN
+Functions can make the process easier. OCEAN scripts can be downloaded directly
+from a ADE L session configuration for future use. Using OCEAN XL is the best way
+to accomplish scripting since it has a built in function to export result waves 
+as csv files. 

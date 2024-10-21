@@ -1,0 +1,12 @@
+FeaturesFreqAnalysisNN.csv
+Signal,1,/Vin X,/Vin YRe
+Feature, Mean, Variance, Slope
+1,2.500000e-02,1.938769e-34,-2.574784e-27
+Signal,2,/out1 X,/out1 YRe
+Feature, Mean, Variance, Slope
+1,4.545425e-02,1.202876e-03,-5.266315e-10
+2,3.845402e-03,1.165111e-05,-1.312658e-11
+Signal,3,/out2 X,/out2 YRe
+Feature, Mean, Variance, Slope
+1,1.626878e-01,3.500918e-02,-9.875302e-09
+2,1.013376e-03,7.992085e-06,-5.446270e-12

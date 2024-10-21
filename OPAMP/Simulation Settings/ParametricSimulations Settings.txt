@@ -1,0 +1,41 @@
+This documentation describes the tests run on each amplifer. See the
+accompanying screenshots showing settings. They show the ADE L settings
+as well as the parametric tool settings and an example of the test outcome.
+Screenshots of all tests were taken and are in the Data Screen Captures Folder.
+
+ADE L was used to simulate these circuits.
+Circuit schematics were rearranged by hand for each test. DC tests are run
+with a DC configuration of the circuit.(A VDC source from analog library) AC 
+tests are run with an AC circuit config.(A VSIN source from analog library)
+The tests are set up as follows all with linear 150 points:
+
+DCTempGain: 
+To be plotted out0, out1, out2
+Design variable Vin selected and varied from 0 - 1.6V with 150 linear points
+Parametric test selected to vary temp from -60-150 degrees Celcuis
+
+DCParamTransient:
+To be plotted out0, out1, out2, Vin
+Transient analysis for 3mS
+Options start at 0. Step and max step set to .02mS providing 150 points
+Parametric test selected to vary Vin from 0-1.6V at 150 linear points
+
+ACParamTransient:
+To be plotted out0, out1, out2, Vin
+Transient selected with same options
+Parametric test used to vary offset single stage 250m - 750m
+				    dual stage   150m - 575m
+
+
+The following values are used to set up the amplifiers:
+Single		Dual		Tripple
+Vdd 1.6		Vdd 1.6		Vdd 1.6
+Vin 750m	Vin 500m	Vin 450m
+R0 17.5k	R0 17.5k	R0 18.75k
+Rf0 35k		Rf0 35k		Rf0 37.5k
+R1 na		R1 17.5k	R1 17.5k
+Rf1 na		Rf1 35k		Rf1 35k
+R2 na		R2 na		R2 10k
+Rf2 na		Rf2 na		Rf2 20k
+Amp 50 m	Amp 15m		Amp 2m
+Freq 1k		Freq 1k		Freq 1k

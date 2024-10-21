@@ -1,0 +1,11 @@
+This tri-Stage amplifier is based on the dual-stage amplifier with slight
+modification. I added an additional stage to the front allowing a smaller
+input signal to be used. I again relied on the resistor curves taken from
+the single stage to find a resistor combination that would work. At a 450mV
+input I was only able to amplify 1.11 times. This 500mV input then
+powered the 2 stage configuration directly. Single and Double stages use 
+35k/17.5k. The first amp in the tri-stage uses 37.5k/18.75k.
+
+The TriStage design was modified to avoid clipping in the AC tests. The final
+stage was changed to a gain of 1.5 at 700mv (20k/10k). A Small ac signal was 
+used because amplification easily caused clipping.

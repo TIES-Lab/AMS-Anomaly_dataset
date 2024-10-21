@@ -1,0 +1,7 @@
+ 
+Instead of having to set up all my tests again I saved the ADE XL Session as a copy.
+I then went into the file system and copied 
+the ADE XL instance folder from the tristage P to the tri stage N Cell View folder. Now 
+all that has to be done is a modification of the resister values and input voltages 
+to the AC and DC tests. In the Test Editor the schematic has to be changed
+as well otherwise whichever schematic you stole the state from will be used.

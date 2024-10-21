@@ -1,0 +1,8 @@
+ 
+The dual stage amplifier was designed to have a gain of 3 with an input of 500mV.
+An input voltage this high was chosen to escape the effect of the offset voltage,
+greater than 300mV, that the amp posesses. The same Rfx/Rx combination was chosen
+for both stages because different gains are acheived at different input voltages. 
+With a 500mV input the output is ~700mV producing a gain of 1.5 and with an input 
+of ~700mV the output becomes ~1.4m, or a gain of 2. When two identical stages are 
+combined a gain of 3 is produced.

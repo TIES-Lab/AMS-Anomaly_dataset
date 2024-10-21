@@ -1,0 +1,4 @@
+ 
+In this case the anomalous NFET creates an enormous gain for a very small range of 
+input, then clips. If the input is below 600mV then nothing happens. I have included
+extra Transient AC tests with a higher input to illustrate.
