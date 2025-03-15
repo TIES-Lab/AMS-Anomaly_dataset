@@ -1,0 +1,340 @@
+./
+├── ADC
+│   ├── Anomalous
+│   │   ├── LinearRegionFaults
+│   │   │   ├── 1stbit
+│   │   │   │   ├── 0.3PV.csv
+│   │   │   │   ├── 0.6V.csv
+│   │   │   │   ├── 0.8PV.csv
+│   │   │   │   ├── 0PV.csv
+│   │   │   │   ├── 1PV.csv
+│   │   │   │   ├── 2.5NV.csv
+│   │   │   │   ├── 2.6NV.csv
+│   │   │   │   ├── 2.7NV.csv
+│   │   │   │   ├── 2.8NV.csv
+│   │   │   │   ├── 3.0NV.csv
+│   │   │   │   └── 3.2NV.csv
+│   │   │   ├── 1stbitmux
+│   │   │   │   ├── 0.3PV.csv
+│   │   │   │   ├── 0.6PV.csv
+│   │   │   │   ├── 0.9PV.csv
+│   │   │   │   ├── 0PV.csv
+│   │   │   │   ├── 3.9NV.csv
+│   │   │   │   ├── 4.1NV.csv
+│   │   │   │   ├── 4.3NV.csv
+│   │   │   │   ├── 4.5NV.csv
+│   │   │   │   ├── 4.7NV.csv
+│   │   │   │   └── 4.9NV.csv
+│   │   │   ├── 3rdbitand
+│   │   │   │   ├── 0.2PV.csv
+│   │   │   │   ├── 0.5PV.csv
+│   │   │   │   ├── 0.8PV.csv
+│   │   │   │   ├── 0PV.csv
+│   │   │   │   ├── 4.2NV.csv
+│   │   │   │   ├── 4.4NV.csv
+│   │   │   │   ├── 4.6NV.csv
+│   │   │   │   ├── 4.8NV.csv
+│   │   │   │   ├── 4NV.csv
+│   │   │   │   └── 5NV.csv
+│   │   │   ├── 4thbitand
+│   │   │   │   ├── 0.2PV.csv
+│   │   │   │   ├── 0.5PV.csv
+│   │   │   │   ├── 0.8PV.csv
+│   │   │   │   ├── 0PV.csv
+│   │   │   │   ├── 1.1PV.csv
+│   │   │   │   ├── 1.4PV.csv
+│   │   │   │   ├── 1.7PV.csv
+│   │   │   │   ├── 2.0PV.csv
+│   │   │   │   ├── 2.3PV.csv
+│   │   │   │   ├── 2.6PV.csv
+│   │   │   │   ├── 2.9PV.csv
+│   │   │   │   ├── 3.2PV.csv
+│   │   │   │   ├── 3.5PV.csv
+│   │   │   │   ├── 4.2NV.csv
+│   │   │   │   ├── 4.4NV.csv
+│   │   │   │   ├── 4.6NV.csv
+│   │   │   │   ├── 4.8NV.csv
+│   │   │   │   ├── 4NV.csv
+│   │   │   │   └── 5NV.csv
+│   │   │   └── 4thbitmux
+│   │   │       ├── 0.3PV.csv
+│   │   │       ├── 0.6PV.csv
+│   │   │       ├── 0.9PV.csv
+│   │   │       ├── 0PV.csv
+│   │   │       ├── 1.2PV.csv
+│   │   │       ├── 3.9NV.csv
+│   │   │       ├── 4.1NV.csv
+│   │   │       ├── 4.3NV.csv
+│   │   │       ├── 4.5NV.csv
+│   │   │       ├── 4.7NV.csv
+│   │   │       └── 4.9NV.csv
+│   │   ├── OpenShortFaults
+│   │   │   ├── 1stbit
+│   │   │   │   ├── 100000.csv
+│   │   │   │   ├── 10000ohm.csv
+│   │   │   │   ├── 1000ohm.csv
+│   │   │   │   ├── 100M.csv
+│   │   │   │   ├── 100ohm.csv
+│   │   │   │   ├── 10M.csv
+│   │   │   │   ├── 1G.csv
+│   │   │   │   ├── 1M.csv
+│   │   │   │   └── 5ohm.csv
+│   │   │   ├── 1stbitmux
+│   │   │   │   ├── 100000.csv
+│   │   │   │   ├── 10000ohm.csv
+│   │   │   │   ├── 1000ohm.csv
+│   │   │   │   ├── 100M.csv
+│   │   │   │   ├── 100ohm.csv
+│   │   │   │   ├── 10M.csv
+│   │   │   │   ├── 1G.csv
+│   │   │   │   ├── 1M.csv
+│   │   │   │   └── 5ohm.csv
+│   │   │   ├── 3rdbitand
+│   │   │   │   ├── 100000ohm.csv
+│   │   │   │   ├── 10000ohm.csv
+│   │   │   │   ├── 1000ohm.csv
+│   │   │   │   ├── 100M.csv
+│   │   │   │   ├── 100ohm.csv
+│   │   │   │   ├── 10M.csv
+│   │   │   │   ├── 1G.csv
+│   │   │   │   ├── 1M.csv
+│   │   │   │   └── 5ohm.csv
+│   │   │   ├── 4thbitand
+│   │   │   │   ├── 100000.csv
+│   │   │   │   ├── 10000.csv
+│   │   │   │   ├── 1000ohm.csv
+│   │   │   │   ├── 100M.csv
+│   │   │   │   ├── 100ohm.csv
+│   │   │   │   ├── 10M.csv
+│   │   │   │   ├── 1G.csv
+│   │   │   │   ├── 1M.csv
+│   │   │   │   └── 5ohm.csv
+│   │   │   └── 4thbitmux
+│   │   │       ├── 100000.csv
+│   │   │       ├── 10000.csv
+│   │   │       ├── 1000ohm.csv
+│   │   │       ├── 100M.csv
+│   │   │       ├── 100ohm.csv
+│   │   │       ├── 10M.csv
+│   │   │       ├── 1G.csv
+│   │   │       ├── 1M.csv
+│   │   │       └── 5ohm.csv
+│   │   └── TemperatureFaults
+│   │       ├── Anomalous
+│   │       │   ├── -100C.csv
+│   │       │   ├── 130C.csv
+│   │       │   ├── 135C.csv
+│   │       │   ├── 140C.csv
+│   │       │   ├── 145C.csv
+│   │       │   ├── 150C.csv
+│   │       │   ├── 155C.csv
+│   │       │   ├── 160C.csv
+│   │       │   ├── 165C.csv
+│   │       │   ├── 170C.csv
+│   │       │   ├── 175C.csv
+│   │       │   ├── 180C.csv
+│   │       │   ├── 185C.csv
+│   │       │   ├── 190C.csv
+│   │       │   ├── 195C.csv
+│   │       │   ├── 200C.csv
+│   │       │   ├── -45C.csv
+│   │       │   ├── -50C.csv
+│   │       │   ├── -55C.csv
+│   │       │   ├── -60C.csv
+│   │       │   ├── -65C.csv
+│   │       │   ├── -70C.csv
+│   │       │   ├── -75.csv
+│   │       │   ├── -80C.csv
+│   │       │   ├── -85C.csv
+│   │       │   ├── -90C.csv
+│   │       │   └── -95C.csv
+│   │       └── Non_Anomalous
+│   │           ├── 0C.csv
+│   │           ├── 100C.csv
+│   │           ├── 105C.csv
+│   │           ├── -10C.csv
+│   │           ├── 10C.csv
+│   │           ├── 110C.csv
+│   │           ├── 115C.csv
+│   │           ├── 120C.csv
+│   │           ├── 125C.csv
+│   │           ├── -15C.csv
+│   │           ├── 15C.csv
+│   │           ├── -20C.csv
+│   │           ├── 20C.csv
+│   │           ├── -25C.csv
+│   │           ├── 25C.csv
+│   │           ├── 27C.csv
+│   │           ├── -30C.csv
+│   │           ├── 30C.csv
+│   │           ├── -35C.csv
+│   │           ├── 35C.csv
+│   │           ├── -40C.csv
+│   │           ├── 40C.csv
+│   │           ├── 45C.csv
+│   │           ├── 50.csv
+│   │           ├── 55C.csv
+│   │           ├── -5C.csv
+│   │           ├── 5C.csv
+│   │           ├── 60C.csv
+│   │           ├── 65C.csv
+│   │           ├── 70C.csv
+│   │           ├── 75C.csv
+│   │           ├── 80C.csv
+│   │           ├── 85C.csv
+│   │           ├── 90C.csv
+│   │           └── 95C.csv
+│   └── NON-Anomalous
+│       └── Non_anomalous.csv
+├── DAC
+│   ├── Anomalous
+│   │   ├── LinearRegionAnomaly
+│   │   │   ├── N1
+│   │   │   │   ├── 0.2PV.csv
+│   │   │   │   ├── 0.5PV.csv
+│   │   │   │   ├── 0.8PV.csv
+│   │   │   │   ├── 0PV.csv
+│   │   │   │   ├── 1.1PV.csv
+│   │   │   │   ├── 1.4PV.csv
+│   │   │   │   ├── 1.7PV.csv
+│   │   │   │   ├── 2.3PV.csv
+│   │   │   │   ├── 2.6PV.csv
+│   │   │   │   ├── 2.9PV.csv
+│   │   │   │   ├── 2PV.csv
+│   │   │   │   ├── 3.2PV.csv
+│   │   │   │   └── 3.5PV.csv
+│   │   │   └── P1
+│   │   │       ├── 1.2NV.csv
+│   │   │       ├── 1.5NV.csv
+│   │   │       ├── 1.8NV.csv
+│   │   │       ├── 2.1NV.csv
+│   │   │       ├── 2.4NV.csv
+│   │   │       ├── 2.7NV.csv
+│   │   │       ├── 3.3NV.csv
+│   │   │       ├── 3.6NV.csv
+│   │   │       ├── 3.9NV.csv
+│   │   │       ├── 3NV.csv
+│   │   │       ├── 4.2NV.csv
+│   │   │       ├── 4.5NV.csv
+│   │   │       ├── 4.8NV.csv
+│   │   │       └── 5NV.csv
+│   │   ├── OpenShortFaults
+│   │   │   ├── 100K OHM
+│   │   │   │   ├── T10.csv
+│   │   │   │   ├── T11.csv
+│   │   │   │   ├── T12.csv
+│   │   │   │   ├── T7.csv
+│   │   │   │   └── T9.csv
+│   │   │   ├── 100M OHM
+│   │   │   │   ├── T10.csv
+│   │   │   │   ├── T11.csv
+│   │   │   │   ├── T12.csv
+│   │   │   │   ├── T7.csv
+│   │   │   │   └── T9.csv
+│   │   │   ├── 100 OHM
+│   │   │   │   ├── T10.csv
+│   │   │   │   ├── T11.csv
+│   │   │   │   ├── T12.csv
+│   │   │   │   ├── T7.csv
+│   │   │   │   └── T9.csv
+│   │   │   ├── 10K OHM
+│   │   │   │   ├── T10.csv
+│   │   │   │   ├── T11.csv
+│   │   │   │   ├── T12.csv
+│   │   │   │   ├── T7.csv
+│   │   │   │   └── T9.csv
+│   │   │   ├── 10M OHM
+│   │   │   │   ├── T10.csv
+│   │   │   │   ├── T11.csv
+│   │   │   │   ├── T12.csv
+│   │   │   │   ├── T7.csv
+│   │   │   │   └── T9.csv
+│   │   │   ├── 1G OHM
+│   │   │   │   ├── T10.csv
+│   │   │   │   ├── T11.csv
+│   │   │   │   ├── T12.csv
+│   │   │   │   ├── T7.csv
+│   │   │   │   └── T9.csv
+│   │   │   ├── 1K OHM
+│   │   │   │   ├── T10.csv
+│   │   │   │   ├── T11.csv
+│   │   │   │   ├── T12.csv
+│   │   │   │   ├── T7.csv
+│   │   │   │   └── T9.csv
+│   │   │   └── 1M OHM
+│   │   │       ├── T10.csv
+│   │   │       ├── T11.csv
+│   │   │       ├── T12.csv
+│   │   │       ├── T7.csv
+│   │   │       └── T9.csv
+│   │   └── TemperatureFaults
+│   │       ├── -100C.csv
+│   │       ├── 125C.csv
+│   │       ├── 130C.csv
+│   │       ├── 135C.csv
+│   │       ├── 140C.csv
+│   │       ├── 145C.csv
+│   │       ├── 150C.csv
+│   │       ├── 155C.csv
+│   │       ├── 160C.csv
+│   │       ├── 165C.csv
+│   │       ├── 170C.csv
+│   │       ├── 175C.csv
+│   │       ├── 180C.csv
+│   │       ├── 185C.csv
+│   │       ├── 190C.csv
+│   │       ├── 195C.csv
+│   │       ├── 200C.csv
+│   │       ├── -45C.csv
+│   │       ├── -50C.csv
+│   │       ├── -55C.csv
+│   │       ├── -60C.csv
+│   │       ├── -65C.csv
+│   │       ├── -70C.csv
+│   │       ├── -75C.csv
+│   │       ├── -80C.csv
+│   │       ├── -85C.csv
+│   │       ├── -90C.csv
+│   │       └── -95C.csv
+│   └── NON_Anomalous
+│       └── Non_anomalous.csv
+├── OPAMP
+│   ├── Anomalous
+│   │   ├── Anomalous_Nfet
+│   │   │   ├── FreqAnalysis.csv
+│   │   │   ├── TransientAC.csv
+│   │   │   └── TransientDC.csv
+│   │   ├── Anomalous_Pfet
+│   │   │   ├── FreqAnalysis.csv
+│   │   │   ├── TransientAC.csv
+│   │   │   └── TransientDC.csv
+│   │   └── TemperatureFaults
+│   │       ├── Temp_N60_150_A.csv
+│   │       └── Temp_N60_150_P.csv
+│   └── NON_Anomalous
+│       └── CascadeAmp
+│           ├── FeqAnalysis.csv
+│           ├── Temp_N60_150.csv
+│           └── TransientAC.csv
+├── README.md
+├── struct.txt
+└── VRef
+    ├── Anomalous
+    │   ├── LinearRegionFaults
+    │   │   ├── VRef_LinearRegion_InputAnalysis.csv
+    │   │   ├── VRef_LinearRegion_TempAnalysis.csv
+    │   │   └── VRef_LinearRegion_TransientAnalysis.csv
+    │   ├── OpenFaults
+    │   │   ├── VRef_OpenFault_InputAnalysis.csv
+    │   │   ├── VRef_OpenFault_OpenFaults.csv
+    │   │   └── VRef_OpenFault_TempAnalysis.csv
+    │   ├── ShortFaults
+    │   │   ├── VRef_ShortFault_InputAnalysis.csv
+    │   │   ├── VRef_ShortFault_ShortFaults.csv
+    │   │   └── VRef_ShortFault_TempAnalysis.csv
+    │   └── TemperatureFaults
+    │       └── VRef_TempFault.csv
+    └── Non-Anomalous
+        └── Non-Anomalous.csv
+
+48 directories, 289 files
