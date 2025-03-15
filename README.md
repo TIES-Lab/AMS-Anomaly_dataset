@@ -12,24 +12,6 @@ The dataset is organized into the following directory structure, capturing both 
 
 
     |-ADC
-    |---Converted
-    |-----NON-Anomalous
-    |-----shorttrans
-    |-------1stbit
-    |-------1stbitmux
-    |-------3rdbitand
-    |-------4thbitand
-    |-------4thbitmux
-    |-----tempsweep
-    |-------Anomalous
-    |-------Non_Anomalous
-    |-----trans
-    |-------1stbit
-    |-------1stbitmux
-    |-------3rdbitand
-    |-------4thbitand
-    |-------4thbitmux
-    |---RAW
     |-----NON-Anomalous
     |-----shorttrans
     |-------1stbit
@@ -47,24 +29,6 @@ The dataset is organized into the following directory structure, capturing both 
     |-------4thbitand
     |-------4thbitmux
     |-DAC
-    |---Converted
-    |-----bulk
-    |-------N1
-    |-------P1
-    |-----DAC Open and Short Circuit Data
-    |-------100K OHM
-    |-------100M OHM
-    |-------100 OHM
-    |-------10K OHM
-    |-------10M OHM
-    |-------1G OHM
-    |-------1K OHM
-    |-------1M OHM
-    |-----DAC Temperature Data
-    |-------Anomalous
-    |-------Non_anomalous
-    |-----Non_anomalous
-    |---RAW
     |-----bulk
     |-------N1
     |-------P1
@@ -82,20 +46,27 @@ The dataset is organized into the following directory structure, capturing both 
     |-------Non_anomalous
     |-----Non_anomalous
     |-OPAMP
-    |---FeatureExtractedData
-    |-----DualStage
-    |-------AC_Parametric_Features
-    |-------DC_Parametric_Features
-    |-----SingleStage
-    |-------AC_Parametric_Features
-    |-------DC_Parametric_Features
-    |-----TrippleStage
-    |-------AC_Parametric_Features
-    |-------DC_Parametric_Features
-    |---RawParametricTempGain
-    |-----DualStage
-    |-----SingleStage
-    |-----TrippleStage
+    |-----Anomalous_Nfet
+    |--------SingleStage
+    |----------FreqAnalysis.csv
+    |----------Gain.csv
+    |----------Temp_N60_150_A.csv
+    |----------TransientACA.csv
+    |----------TransientDCA.csv
+    |-----Anomalous_Pfet
+    |--------SingleStage
+    |----------FreqAnalysis.csv
+    |----------Gain.csv
+    |----------Temp_N60_150_A.csv
+    |----------TransientACA.csv
+    |----------TransientDCA.csv
+    |-----CascadeAmp
+    |--------SingleStage
+    |----------FreqAnalysis.csv
+    |----------Gain.csv
+    |----------Temp_N60_150_A.csv
+    |----------TransientACA.csv
+    |----------TransientDCA.csv
     |-VRef
     |---LinearRegion
     |---OpenFaults
