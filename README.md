@@ -5,7 +5,7 @@ The **AMS-Anomaly-Dataset** is an open-source collection of well-structured data
 
 ### 📜 Background
 AMS circuits are integral to automotive SoCs, acting as bridges between continuous analog signals and digital logic. However, these circuits are susceptible to issues like **parametric faults**, **open/short circuit faults**, and **operating region anomalies**, which can compromise functional safety (FuSa) and reliability. This dataset provides a structured repository of AMS circuit data to help researchers standardize and improve machine learning (ML) models for fault detection and anomaly analysis.
-![alt text](image.png)
+
 
 ## 📊 Dataset Components and Fault Scenarios
 The dataset consists of the following key AMS components, each characterized by various fault injection scenarios:
