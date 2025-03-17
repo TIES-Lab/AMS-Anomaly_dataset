@@ -47,6 +47,3 @@ To ADD -->
 
 ## License
 This dataset is provided under the MIT License.
-
-## Contact
-For any questions or issues, please contact the dataset maintainers at sanjay.das@utdallas.edu
